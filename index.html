@@ -22,7 +22,7 @@
 
 <body>
     <!-- HEADER start-->
-    <header class="jumbotron jumbotron-fluid">
+    <header class="jumbotron jumbotron-fluid pb-0">
         <div class="container">
             <div class="row">
                 <div class="col col-sm-3 mr-3 d-flex justify-content-sm-end align-items-end">
@@ -69,16 +69,78 @@
     </header>
     <!-- HEADER end-->
 
+    <!-- CAROUSEL start-->
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="upcomingEventsCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#upcomingEventsCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#upcomingEventsCarousel" data-slide-to="1"></li>
+                        <li data-target="#upcomingEventsCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/images/event1.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/event2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/images/event3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#upcomingEventsCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#upcomingEventsCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CAROUSEL end-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col order-2 order-md-1">
+                <h2>About J & J</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget diam vel massa scelerisque ultrices id sed erat. Phasellus et velit vitae libero pharetra suscipit. Etiam iaculis felis eu ligula rutrum pretium. Vivamus malesuada luctus sem eget gravida. Vestibulum porta at neque eget fermentum. Nam tristique nunc mollis consequat dapibus. Sed cursus ex efficitur enim faucibus, a consectetur purus sagittis. Nam vitae quam facilisis, condimentum dui nec, suscipit magna. Nam id dignissim odio. Morbi id nunc sit amet purus suscipit tincidunt. Cras mattis nulla eros, bibendum fermentum eros eleifend quis. Quisque at aliquam risus, sit amet rhoncus leo. Etiam id massa non leo interdum pellentesque. Phasellus nec ex quis neque euismod rhoncus.</p>
+            </div>
+            <div class="col order-1 order-md-2">
+                <h2>Artist Spotlight</h2>
+                <div class="media">
+                    <img src="images/artistSpotlight.jpg">
+                    <div class="media-body ml-3">
+                        <h5>GreatPlay</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget diam vel massa scelerisque ultrices id sed erat. Phasellus et velit vitae libero pharetra suscipit. Etiam iaculis felis eu ligula rutrum pretium. </p>
+                        <audio controls>
+                            <source src="music/always-with-me-preview-full.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- FOOTER start -->
-    <footer class="site-footer fixed-bottom">
+    <footer class="site-footer">
         <div class="container text-center">
             <div class="row">
                 <div class="col">
                     <h5>Social</h5>
-                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
-                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
-                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
-                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+                    <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                            class="fa fa-instagram"></i></a>
+                    <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                            class="fa fa-facebook"></i></a>
+                    <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                            class="fa fa-twitter"></i></a>
+                    <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                            class="fa fa-youtube"></i></a>
                 </div>
                 <div class="col">
                     <h5>Legal</h5>
