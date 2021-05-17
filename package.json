@@ -1,0 +1,34 @@
+{
+  "name": "portfolio_project",
+  "version": "1.0.0",
+  "description": "Nucamp Portfolio Project - J&J Promotions",
+  "main": "index.html",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessicamoody1988/portfolio_project.git"
+  },
+  "author": "Jessica Moody",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessicamoody1988/portfolio_project/issues"
+  },
+  "homepage": "https://github.com/jessicamoody1988/portfolio_project#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
