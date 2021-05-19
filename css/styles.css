@@ -1,5 +1,12 @@
 body {
     font-family: "Open Sans", sans-serif;
+    
+    background-image: linear-gradient(black, white,black)
+    /*
+    background-image: url(../images/stage-336695_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    */
 }
 
 h1 {
@@ -8,11 +15,21 @@ h1 {
 
 .jumbotron,
 .navbar,
+.site-footer,
+.breadcrumb {
+    background-color: black;
+    color: white;
+}
+
 .site-footer {
-    background-color: #7588A1;
+    margin-top: 20px;
 }
 
 #copyright {
     font-size: small;
     font-style: italic;
+}
+
+.badge {
+    font-size: 14px;
 }
