@@ -1,8 +1,13 @@
 body {
     font-family: "Open Sans", sans-serif;
     
-    background-image: linear-gradient(black, white,black)
+    background-image: url("/images/watercolors-413273.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     /*
+    background-image: linear-gradient(black, white,black)
+    
     background-image: url(../images/stage-336695_1920.jpg);
     background-repeat: no-repeat;
     background-size: cover;
